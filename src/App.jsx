@@ -18,7 +18,7 @@ const initialSholatReadings = [
     id: "doa-adzan",
     category: "Wajib",
     title: "Doa Habis Adzan",
-    arabic: "اللَّهُمَّ رَبَّ هَذِهِ الدَّعْوَةِ التَّامَّةِ وَالصَّلَاةِ الْقَائِمَةِ آتِ مُحَمَّدًا الْوَسِيلَةَ وَالْفَضِيلَةَ وَابْعَثْهُ مَقَامًا مَحْمُودًا الَّذِي وَعَدْتَهُ",
+    arabic: "اللَّهُمَّ رَبَّ هَذِهِ الدَّعْوَةِ التَّامَّةِ وَالصَّلَاةِ الْقَائِمَةِ آtِ مُحَمَّدًا الْوَسِيلَةَ وَالْفَضِيلَةَ وَابْعَثْهُ مَقَامًا مَحْمُودًا الَّذِي وَعَدْتَهُ",
     translation: "Ya Allah, Pemilik seruan yang sempurna ini dan shalat yang senantiasa dignitaskan, berilah Nabi Muhammad wasilah (kedudukan mulia) dan keutamaan, dan bangkitkanlah beliau di tempat yang terpuji yang telah Engkau janjikan."
   },
   {
@@ -40,20 +40,20 @@ const initialSholatReadings = [
     category: "Wajib",
     title: "Doa Iftitah 3 (Allahumma Baaid)",
     arabic: "اللَّهُمَّ بَاعِدْ بَيْنِي وَبَيْنِ خَطَايَايَ كَمَا بَاعَدْتَ بَيْنَ الْمَشْرِقِ وَالْمَغْرِبِ، اللَّهُمَّ نَقِّنِي مِنَ الْخَطَايَا كَمَا يُنَقَّى الثَّوْبُ الْأَبْيَضُ مِنَ الدَّنَسِ، اللَّهُمَّ اغْسِلْ خَطَايَايَ بِالْمَاءِ وَالثَّلْجِ وَالْبَرَدِ",
-    translation: "Ya Allah, jauhkanlah antara aku dan kesalahan-kesalahanku sebagaimana Engkau menjauhkan antara timur dan barat. Ya Allah, bersihkanlah aku dari kesalahan-kesalahanku sebagaimana baju putih dibersihkan dari kotoran. Ya Allah, cucilah kesalahan-kesalahanku dengan air, salju dan es."
+    translation: "Ya Allah, jauhkanlah antara aku and kesalahan-kesalahanku sebagaimana Engkau menjauhkan antara timur dan barat. Ya Allah, bersihkanlah aku dari kesalahan-kesalahanku sebagaimana baju putih dibersihkan dari kotoran. Ya Allah, cucilah kesalahan-kesalahanku dengan air, salju dan es."
   },
   {
     id: "tahyat-awal",
     category: "Wajib",
     title: "Bacaan Tahyat Awal",
-    arabic: "التَّحِيَّاتُ الْمُبَارَكَاتُ الصَّلَوَاتُ الطَّيِّبَاتُ لِلَّهِ، السَّلَامُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ, السَّلَامُ عَلَيْنَا وَعَلَى عِبَادِ اللَّهِ الصَّالِحِينَ، أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللَّهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللَّهِ",
+    arabic: "التَّحِيَّاتُ الْمُبَارَكَاتُ الصَّلَوَاتُ الطَّيِّبَاتُ لِلَّهِ، السَّلَامُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ, السَّلَامُ عَلَيْنَا وَعَلَى عِبَادِ اللَّهِ الصَّالِحِينَ، أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللَّهُ وَأَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللَّهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللَّهِ",
     translation: "Segala penghormatan yang penuh berkah, segenap shalawat yang baik adalah milik Allah. Semoga kesejahteraan, rahmat Allah dan berkah-Nya tercurah kepadamu wahai Nabi. Semoga kesejahteraan tercurah atas kita dan atas hamba-hamba Allah yang shalih. Aku bersaksi bahwa tidak ada sesembahan yang berhak disembah selain Allah, dan aku bersaksi bahwa Muhammad adalah utusan Allah."
   },
   {
     id: "tahyat-akhir",
     category: "Wajib",
     title: "Bacaan Tahyat Akhir",
-    arabic: "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ، وَبَارِكْ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا بَارَكْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ، فِي الْعَالَمِينَ إِنَّكَ حَمِيدٌ مَجِيدٌ",
+    arabic: "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ، وَبَارِك|َ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا بَارَكْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ، فِي الْعَالَمِينَ إِنَّكَ حَمِيدٌ مَجِيدٌ",
     translation: "Ya Allah, limpahkanlah rahmat kepada Nabi Muhammad dan keluarganya sebagaimana Engkau limpahkan rahmat kepada Nabi Ibrahim dan keluarganya. Dan berilah keberkahan kepada Nabi Muhammad dan keluarganya sebagaimana Engkau berikan keberkahan kepada Nabi Ibrahim dan keluarganya, di seluruh alam, sesungguhnya Engkau Maha Terpuji lagi Maha Mulia."
   }
 ];
@@ -97,7 +97,8 @@ export default function App() {
     return localStorage.getItem('moslem_gas_url') || '';
   });
   const [syncStatus, setSyncStatus] = useState('idle'); // idle, syncing, success, error
-  const [testResult, setTestResult] = useState(''); // Status tes koneksi manual
+  const [testResult, setTestResult] = useState('');
+  const [isAuthLoading, setIsAuthLoading] = useState(false);
 
   const [sholatReadings, setSholatReadings] = useState(() => {
     const saved = localStorage.getItem('moslem_sholat_readings');
@@ -129,6 +130,7 @@ export default function App() {
   const [crudTarget, setCrudTarget] = useState('sholat');
   const [currentItem, setCurrentItem] = useState({ id: '', category: 'Wajib', title: '', arabic: '', translation: '', deadline: '', duration: '', status: 'Belum Selesai' });
 
+  // Sinkronisasi data saat aplikasi pertama kali dimuat jika user sudah login
   useEffect(() => {
     const fetchSurahs = async () => {
       try {
@@ -142,13 +144,37 @@ export default function App() {
       }
     };
     fetchSurahs();
+
+    // Lakukan cek berkala status User ke Google Sheet jika terkoneksi
+    if (user && gasUrl) {
+      checkLatestUserRole();
+    }
   }, []);
+
+  // Memeriksa dan memperbarui Role secara otomatis di latar belakang dari Google Sheet
+  const checkLatestUserRole = async () => {
+    try {
+      const response = await fetch(gasUrl);
+      const resData = await response.json();
+      if (resData.status === 'success' && resData.data && resData.data.users) {
+        const matchingUser = resData.data.users.find(
+          u => u.username.toLowerCase() === user.username.toLowerCase()
+        );
+        if (matchingUser && matchingUser.role !== user.role) {
+          const updatedUser = { ...user, role: matchingUser.role };
+          setUser(updatedUser);
+          localStorage.setItem('moslem_user', JSON.stringify(updatedUser));
+        }
+      }
+    } catch (e) {
+      console.error("Gagal memeriksa role terbaru di latar belakang:", e);
+    }
+  };
 
   const syncWithSpreadsheet = async (action, payload) => {
     if (!gasUrl) return;
     setSyncStatus('syncing');
     try {
-      // Menggunakan format payload text/plain murni dan mode: no-cors untuk mengabaikan batasan CORS browser secara mutlak
       await fetch(gasUrl, {
         method: 'POST',
         mode: 'no-cors',
@@ -158,8 +184,6 @@ export default function App() {
         },
         body: JSON.stringify({ action, payload, user: user?.username || 'Guest' }),
       });
-
-      // Jika fetch sukses (tidak melempar error), data dipastikan aman sampai ke Google Apps Script
       setSyncStatus('success');
       setTimeout(() => setSyncStatus('idle'), 3000);
     } catch (e) {
@@ -199,6 +223,7 @@ export default function App() {
     }
   };
 
+  // Alur Autentikasi Baru: Mengambil data real-time dari Google Sheets saat login
   const handleAuth = async (e) => {
     e.preventDefault();
     setAuthError('');
@@ -210,7 +235,7 @@ export default function App() {
     }
 
     if (isRegister) {
-      const newUser = { username, email, password, role: username.toLowerCase().includes('admin') ? 'admin' : 'user' };
+      const newUser = { username, email, password, role: "user" };
 
       localStorage.setItem('moslem_user', JSON.stringify(newUser));
       setUser(newUser);
@@ -220,20 +245,54 @@ export default function App() {
         syncWithSpreadsheet('register', newUser);
       }
     } else {
-      const savedUser = JSON.parse(localStorage.getItem('moslem_user'));
-      if (savedUser && savedUser.username === username && savedUser.password === password) {
-        setUser(savedUser);
-        setAuthSuccess('Login Berhasil!');
-      } else if (username.toLowerCase().includes('admin')) {
-        const adminUser = { username, email: 'admin@moslemjourney.com', role: 'admin' };
-        setUser(adminUser);
-        localStorage.setItem('moslem_user', JSON.stringify(adminUser));
-        setAuthSuccess('Login Admin Berhasil!');
-      } else {
-        const defaultUser = { username, email: `${username}@gmail.com`, role: 'user' };
-        setUser(defaultUser);
-        localStorage.setItem('moslem_user', JSON.stringify(defaultUser));
-        setAuthSuccess('Login Berhasil!');
+      // PROSES LOGIN INTERAKTIF
+      if (!gasUrl) {
+        // Fallback offline jika URL Spreadsheet belum dikonfigurasi
+        const savedUser = JSON.parse(localStorage.getItem('moslem_user'));
+        if (savedUser && savedUser.username === username && savedUser.password === password) {
+          setUser(savedUser);
+          setAuthSuccess('Login Berhasil (Mode Offline)!');
+        } else {
+          setAuthError('Kredensial salah atau hubungkan URL Spreadsheet terlebih dahulu untuk validasi online.');
+        }
+        return;
+      }
+
+      setIsAuthLoading(true);
+      try {
+        // Ambil data user paling update dari Google Sheets
+        const response = await fetch(gasUrl);
+        const resData = await response.json();
+
+        if (resData.status === 'success' && resData.data && resData.data.users) {
+          // Cari user yang sesuai di baris Spreadsheet
+          const matchedUser = resData.data.users.find(
+            u => u.username.toLowerCase() === username.toLowerCase() && String(u.password) === String(password)
+          );
+
+          if (matchedUser) {
+            // Gunakan ROLE yang ditulis di Google Sheets secara real-time!
+            const loggedInUser = {
+              username: matchedUser.username,
+              email: matchedUser.email || `${matchedUser.username}@gmail.com`,
+              password: matchedUser.password,
+              role: matchedUser.role ? matchedUser.role.toLowerCase() : 'user'
+            };
+
+            setUser(loggedInUser);
+            localStorage.setItem('moslem_user', JSON.stringify(loggedInUser));
+            setAuthSuccess(`Login Berhasil! Level Anda adalah: ${loggedInUser.role.toUpperCase()}`);
+          } else {
+            setAuthError('Username atau Kata Sandi salah. Silakan periksa kembali.');
+          }
+        } else {
+          setAuthError('Gagal memuat basis data pengguna dari Google Sheets.');
+        }
+      } catch (error) {
+        console.error("Error login online:", error);
+        setAuthError('Gagal terhubung ke server database Google Sheets. Periksa koneksi internet Anda.');
+      } finally {
+        setIsAuthLoading(false);
       }
     }
   };
@@ -841,9 +900,16 @@ export default function App() {
                   </div>
                   <h3 className="text-base font-bold text-slate-800">{user.username}</h3>
                   <p className="text-xs text-slate-400 mt-0.5">{user.email}</p>
-                  <span className="inline-block mt-3 px-3 py-1 bg-amber-50 border border-amber-200 text-amber-800 font-bold rounded-full text-xs">
+                  <span className="inline-block mt-3 px-3 py-1 bg-amber-50 border border-amber-200 text-amber-800 font-bold rounded-full text-xs animate-pulse">
                     Level: {user.role.toUpperCase()}
                   </span>
+
+                  <button
+                    onClick={checkLatestUserRole}
+                    className="mt-3 block mx-auto text-[10px] bg-slate-100 hover:bg-slate-200 text-slate-600 font-extrabold px-3 py-1.5 rounded-full border border-slate-300 transition flex items-center gap-1"
+                  >
+                    <RefreshCw size={10} /> Perbarui Status Peran Saya
+                  </button>
 
                   <button
                     onClick={handleLogout}
@@ -888,7 +954,7 @@ export default function App() {
                     )}
 
                     {testResult && (
-                      <div className={`p-3 rounded-xl border text-[11px] leading-relaxed font-medium ${testResult.includes('Sukses')
+                      <div className={`p-3 rounded-xl border text-[11px] leading-relaxed font-medium ${testResult.includes('Sukses') || testResult.includes('berhasil')
                           ? 'bg-green-50 border-green-200 text-green-800'
                           : testResult.includes('Gagal') || testResult.includes('terlebih dahulu')
                             ? 'bg-red-50 border-red-200 text-red-800'
@@ -910,7 +976,7 @@ export default function App() {
               <div className="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
                 <div className="text-center mb-6">
                   <h2 className="text-lg font-bold text-slate-800">{isRegister ? 'Registrasi Baru' : 'Masuk Akun'}</h2>
-                  <p className="text-xs text-slate-400 mt-1">Gunakan nama pengguna "admin" pada registrasi jika ingin menguji fitur Admin.</p>
+                  <p className="text-xs text-slate-400 mt-1">Sistem akan secara otomatis menyinkronkan peran akun Anda dari Google Sheets jika URL database terhubung.</p>
                 </div>
 
                 {authError && (
@@ -946,7 +1012,7 @@ export default function App() {
                     <div className="relative">
                       <input
                         type="text"
-                        placeholder="Contoh: raflianoadmin"
+                        placeholder="Masukkan Username Anda"
                         value={username}
                         onChange={(e) => setUsername(e.target.value)}
                         className="w-full bg-slate-50 border border-slate-200 rounded-xl py-2 pl-9 pr-4 text-xs focus:ring-1 focus:ring-emerald-500 focus:outline-none"
@@ -960,7 +1026,7 @@ export default function App() {
                     <div className="relative">
                       <input
                         type="password"
-                        placeholder="Kata Sandi Minimal 6 Karakter"
+                        placeholder="Kata Sandi"
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
                         className="w-full bg-slate-50 border border-slate-200 rounded-xl py-2 pl-9 pr-4 text-xs focus:ring-1 focus:ring-emerald-500 focus:outline-none"
@@ -971,9 +1037,10 @@ export default function App() {
 
                   <button
                     type="submit"
-                    className="w-full bg-emerald-700 hover:bg-emerald-800 text-white font-bold py-2.5 rounded-xl text-xs transition shadow mt-6"
+                    disabled={isAuthLoading}
+                    className="w-full bg-emerald-700 hover:bg-emerald-800 text-white font-bold py-2.5 rounded-xl text-xs transition shadow mt-6 disabled:opacity-50"
                   >
-                    {isRegister ? 'Register Sekarang' : 'Masuk Aplikasi'}
+                    {isAuthLoading ? 'Memeriksa Spreadsheet...' : isRegister ? 'Register Sekarang' : 'Masuk Aplikasi'}
                   </button>
                 </form>
 
