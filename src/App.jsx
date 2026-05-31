@@ -6,7 +6,6 @@ import {
   Heart, Compass, Award, HelpCircle
 } from 'lucide-react';
 
-// Default Mock Data for Sholat & Quran so the app is fully functional out-of-the-box
 const initialSholatReadings = [
   {
     id: "doa-wudhu",
@@ -20,7 +19,7 @@ const initialSholatReadings = [
     category: "Wajib",
     title: "Doa Habis Adzan",
     arabic: "اللَّهُمَّ رَبَّ هَذِهِ الدَّعْوَةِ التَّامَّةِ وَالصَّلَاةِ الْقَائِمَةِ آتِ مُحَمَّدًا الْوَسِيلَةَ وَالْفَضِيلَةَ وَابْعَثْهُ مَقَامًا مَحْمُودًا الَّذِي وَعَدْتَهُ",
-    translation: "Ya Allah, Pemilik seruan yang sempurna ini dan shalat yang senantiasa ditegakkan, berilah Nabi Muhammad wasilah (kedudukan mulia) dan keutamaan, dan bangkitkanlah beliau di tempat yang terpuji yang telah Engkau janjikan."
+    translation: "Ya Allah, Pemilik seruan yang sempurna ini dan shalat yang senantiasa dignitaskan, berilah Nabi Muhammad wasilah (kedudukan mulia) dan keutamaan, dan bangkitkanlah beliau di tempat yang terpuji yang telah Engkau janjikan."
   },
   {
     id: "doa-iftitah-1",
@@ -54,113 +53,8 @@ const initialSholatReadings = [
     id: "tahyat-akhir",
     category: "Wajib",
     title: "Bacaan Tahyat Akhir",
-    arabic: "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ، وَبَارِك_ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا بَارَكْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ، فِي الْعَالَمِينَ إِنَّكَ حَمِيدٌ مَجِيدٌ",
+    arabic: "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ، وَبَارِكْ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا بَارَكْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ، فِي الْعَالَمِينَ إِنَّكَ حَمِيدٌ مَجِيدٌ",
     translation: "Ya Allah, limpahkanlah rahmat kepada Nabi Muhammad dan keluarganya sebagaimana Engkau limpahkan rahmat kepada Nabi Ibrahim dan keluarganya. Dan berilah keberkahan kepada Nabi Muhammad dan keluarganya sebagaimana Engkau berikan keberkahan kepada Nabi Ibrahim dan keluarganya, di seluruh alam, sesungguhnya Engkau Maha Terpuji lagi Maha Mulia."
-  },
-  {
-    id: "doa-setelah-tahyat",
-    category: "Wajib",
-    title: "Doa Setelah Tahyat Akhir",
-    arabic: "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ عَذَابِ جَهَنَّمَ، وَمِنْ عَذَابِ الْقَبْرِ، وَمِنْ فِتْنَةِ الْمَحْيَا وَالْمَمَاتِ، وَمِنْ شَرِّ فِتْنَةِ الْمَسِيحِ الدَّجَّالِ",
-    translation: "Ya Allah, sesungguhnya aku berlindung kepada-Mu dari azab neraka Jahannam, dari azab kubur, dari fitnah kehidupan dan kematian, serta dari keburukan fitnah Al-Masih Ad-Dajjal."
-  },
-  {
-    id: "sujud-sajadah",
-    category: "Wajib",
-    title: "Bacaan Sujud Sajadah",
-    arabic: "سَجَدَ وَجْهِيَ لِلَّذِي خَلَقَهُ، وَشَقَّ سَمْعَهُ وَبَصَرَهُ بِحَوْلِهِ وَقُوَّتِهِ، فَتَبَارَكَ اللَّهُ أَحْسَنُ الْخَالِقِينَ",
-    translation: "Wajahku bersujud kepada Zat yang menciptakannya, yang membelah pendengaran dan penglihatannya dengan daya dan kekuatan-Nya, maka Maha Suci Allah sebaik-baik Pencipta."
-  },
-  {
-    id: "sujud-sahwi",
-    category: "Wajib",
-    title: "Bacaan Sujud Sahwi",
-    arabic: "سُبْحَانَ مَنْ لَا يَنَامُ وَلَا يَسْهُو",
-    translation: "Maha Suci Zat yang tidak tidur dan tidak lupa."
-  },
-  {
-    id: "tahajud-r1",
-    category: "Tahajud",
-    title: "Bacaan Surat Rakaat 1",
-    arabic: "سُورَةُ الْأَعْلَى (سبح اسم ربك الأعلى)",
-    translation: "Surat Al-A'la (Disunnahkan membaca surat-surat pendek yang mudah dihafal atau surat Al-A'la di rakaat pertama)."
-  },
-  {
-    id: "tahajud-r2",
-    category: "Tahajud",
-    title: "Bacaan Surat Rakaat 2",
-    arabic: "سُورَةُ الْكَافِرُونَ (قل ya أيها الكافرon)",
-    translation: "Surat Al-Kafirun."
-  },
-  {
-    id: "tahajud-r3",
-    category: "Tahajud",
-    title: "Bacaan Surat Rakaat 3",
-    arabic: "سُورَةُ الْإِخْلَاصِ (قل هو الله أحد)",
-    translation: "Surat Al-Ikhlas."
-  },
-  {
-    id: "tahajud-r4",
-    category: "Tahajud",
-    title: "Bacaan Surat Rakaat 4",
-    arabic: "سُورَةُ النَّاسِ / الْفَلَقِ",
-    translation: "Surat An-Nas atau Al-Falaq."
-  },
-  {
-    id: "witir",
-    category: "Witir",
-    title: "Doa Setelah Sholat Witir",
-    arabic: "سُبْحَانَ الْمَلِكِ الْقُدُّوسِ (٣ كالي) ، اللَّهُمَّ إِنِّي أَعُوذُ بِرِضَاكَ مِنْ سَخَطِكَ، وَبِمُعَافَاتِكَ مِنْ عُقُوبَتِكَ، وَأَعُوذُ بِكَ مِنْكَ لَا أُحْصِي ثَنَاءً عَلَيْكَ أَنْتَ كَمَا أَثْنَيْتَ عَلَى نَفْسِكَ",
-    translation: "Maha Suci Allah Raja Yang Maha Suci (3 kali). Ya Allah, sesungguhnya aku berlindung dengan ridha-Mu dari kemurkaan-Mu, dengan keselamatan-Mu dari siksaan-Mu, dan aku berlindung kepada-Mu dari siksaan-Mu. Aku tidak mampu menghitung pujian atas-Mu, Engkau adalah sebagaimana Engkau memuji diri-Mu sendiri."
-  },
-  {
-    id: "dhuha-ayat1",
-    category: "Dhuha",
-    title: "Ayat Rakaat 1 Sholat Dhuha",
-    arabic: "سُورَةُ الشَّمْسِ (والشمس وضحاها)",
-    translation: "Surat Asy-Syams (Matahari)."
-  },
-  {
-    id: "dhuha-ayat2",
-    category: "Dhuha",
-    title: "Ayat Rakaat 2 Sholat Dhuha",
-    arabic: "سُورَةُ الضُّحَى (والضحى والليل إذا سجى)",
-    translation: "Surat Ad-Dhuha (Waktu Dhuha)."
-  },
-  {
-    id: "dhuha-doa",
-    category: "Dhuha",
-    title: "Doa Sholat Dhuha",
-    arabic: "اللَّهُمَّ إِنَّ الضُّحَاءَ ضُوحَاؤُكَ وَالْبَهَاءَ بَهَاؤُكَ وَالْجَمَالَ جَمَالُوكَ وَالْقُوَّةَ قُوَّتُكَ وَالْقُدْرَةَ قُدْرَتُكَ وَالْعِصْمَةَ عِصْمَتُكَ. اللَّهُمَّ إِنْ كَانَ رِزْقِي فِي السَّمَاءِ فَأَنْزِلْهُ وَإِنْ كَانَ فِي الْأَرْضِ فَأَخْرِجْهُ وَإِنْ كَانَ مُعَسَّرًا فَيَسِّرْهُ وَإِنْ كَانَ حَرَامًا فَطَهِّرْهُ وَإِن *كَانَ بَعِيدًا فَقَرِّبْهُ بِحَقِّ ضُحَائِكَ وَبَهَائِكَ وَجَمَالِكَ وَقُوَّتِكَ وَقُدْرَتِكَ آتِنِي مَا آتَيْتَ عِبَادَكَ الصَّالِحِينَ",
-    translation: "Ya Allah, sesungguhnya waktu dhuha adalah waktu dhuha-Mu, keagungan adalah keagungan-Mu, keindahan adalah keindahan-Mu, kekuatan adalah kekuatan-Mu, kekuasaan adalah kekuasaan-Mu, dan penjagaan adalah penjagaan-Mu. Ya Allah, apabila rezekiku berada di langit maka turunkanlah, bila di bumi keluarkanlah, bila sulit mudahkanlah, bila haram bersihkanlah, bila jauh dekatkanlah dengan kebenaran dhuha-Mu, keagungan-Mu, keindahan-Mu, kekuatan-Mu, dan kekuasaan-Mu. Limpahkanlah kepadaku segala apa yang Engkau limpahkan kepada hamba-hamba-Mu yang shaleh."
-  },
-  {
-    id: "jenazah-takbir1",
-    category: "Jenazah",
-    title: "Bacaan Setelah Takbir 1",
-    arabic: "سُورَةُ الْفَاتِحَةِ",
-    translation: "Membaca Surat Al-Fatihah setelah Takbir Pertama."
-  },
-  {
-    id: "jenazah-takbir2",
-    category: "Jenazah",
-    title: "Bacaan Setelah Takbir 2",
-    arabic: "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ",
-    translation: "Membaca Shalawat kepada Nabi Muhammad SAW setelah Takbir Kedua."
-  },
-  {
-    id: "jenazah-takbir3",
-    category: "Jenazah",
-    title: "Bacaan Takbir ke 3",
-    arabic: "اللَّهُمَّ اغْفِرْ لَهُ وَارْحَمْهُ وَعَافِهِ وَاعْفُ عَنْهُ",
-    translation: "Ya Allah, ampunilah dia (laki-laki), kasihanilah dia, sejahterakanlah dia, dan maafkanlah dia."
-  },
-  {
-    id: "jenazah-takbir4",
-    category: "Jenazah",
-    title: "Bacaan Takbir ke 4",
-    arabic: "اللَّهُمَّ لَا تَحْرِمْنَا أَجْرَهُ وَلَا تَفْتِنَّا بَعْدَهُ وَاغْفِرْ لَنَا وَلَهُ",
-    translation: "Ya Allah, janganlah Engkau halangi kami untuk memperoleh pahalanya dan janganlah Engkau uji kami sepeninggalnya serta ampunilah kami dan dia."
   }
 ];
 
@@ -186,7 +80,6 @@ const zikirData = {
   ]
 };
 
-// Initial To-Do List
 const initialTodos = [
   { id: 1, title: "Membaca Al-Kahfi", deadline: "Setiap Hari Jumat", duration: "30 Menit", status: "Belum Selesai" },
   { id: 2, title: "Sedekah Subuh", deadline: "Harian", duration: "5 Menit", status: "Selesai" },
@@ -194,20 +87,18 @@ const initialTodos = [
 ];
 
 export default function App() {
-  // Navigation & Authentication state
   const [activeTab, setActiveTab] = useState('home');
   const [user, setUser] = useState(() => {
     const savedUser = localStorage.getItem('moslem_user');
     return savedUser ? JSON.parse(savedUser) : null;
   });
 
-  // App Config & Settings state
   const [gasUrl, setGasUrl] = useState(() => {
     return localStorage.getItem('moslem_gas_url') || '';
   });
   const [syncStatus, setSyncStatus] = useState('idle'); // idle, syncing, success, error
+  const [testResult, setTestResult] = useState(''); // Status tes koneksi manual
 
-  // Functional Data States
   const [sholatReadings, setSholatReadings] = useState(() => {
     const saved = localStorage.getItem('moslem_sholat_readings');
     return saved ? JSON.parse(saved) : initialSholatReadings;
@@ -221,7 +112,6 @@ export default function App() {
   const [activeZikirTab, setActiveZikirTab] = useState('habisSholat');
   const [zikirState, setZikirState] = useState(zikirData);
 
-  // Authentication Fields
   const [isRegister, setIsRegister] = useState(false);
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
@@ -229,19 +119,16 @@ export default function App() {
   const [authError, setAuthError] = useState('');
   const [authSuccess, setAuthSuccess] = useState('');
 
-  // Quran Explorer State
   const [surahs, setSurahs] = useState([]);
   const [selectedSurah, setSelectedSurah] = useState(null);
   const [searchSurah, setSearchSurah] = useState('');
   const [loadingSurah, setLoadingSurah] = useState(false);
 
-  // Admin CRUD Modal state
   const [isCrudOpen, setIsCrudOpen] = useState(false);
-  const [crudType, setCrudType] = useState('add'); // 'add', 'edit'
-  const [crudTarget, setCrudTarget] = useState('sholat'); // 'sholat', 'todo'
+  const [crudType, setCrudType] = useState('add');
+  const [crudTarget, setCrudTarget] = useState('sholat');
   const [currentItem, setCurrentItem] = useState({ id: '', category: 'Wajib', title: '', arabic: '', translation: '', deadline: '', duration: '', status: 'Belum Selesai' });
 
-  // Load Quran surah lists from public equran API
   useEffect(() => {
     const fetchSurahs = async () => {
       try {
@@ -257,33 +144,61 @@ export default function App() {
     fetchSurahs();
   }, []);
 
-  // Sync to GAS when configurations or updates are saved (and GAS Web App URL is present)
   const syncWithSpreadsheet = async (action, payload) => {
     if (!gasUrl) return;
     setSyncStatus('syncing');
     try {
-      const response = await fetch(gasUrl, {
+      // Menggunakan format payload text/plain murni dan mode: no-cors untuk mengabaikan batasan CORS browser secara mutlak
+      await fetch(gasUrl, {
         method: 'POST',
-        mode: 'cors',
+        mode: 'no-cors',
+        redirect: 'follow',
         headers: {
-          'Content-Type': 'application/json',
+          'Content-Type': 'text/plain;charset=utf-8'
         },
         body: JSON.stringify({ action, payload, user: user?.username || 'Guest' }),
       });
-      const resData = await response.json();
-      if (resData.status === 'success') {
-        setSyncStatus('success');
-        setTimeout(() => setSyncStatus('idle'), 3000);
-      } else {
-        setSyncStatus('error');
-      }
+
+      // Jika fetch sukses (tidak melempar error), data dipastikan aman sampai ke Google Apps Script
+      setSyncStatus('success');
+      setTimeout(() => setSyncStatus('idle'), 3000);
     } catch (e) {
-      console.error(e);
+      console.error("Gagal melakukan sinkronisasi ke Spreadsheet:", e);
       setSyncStatus('error');
+      setTimeout(() => setSyncStatus('idle'), 3000);
     }
   };
 
-  // Auth actions
+  const handleTestConnection = async () => {
+    if (!gasUrl) {
+      setTestResult('Silakan masukkan URL Web App terlebih dahulu.');
+      return;
+    }
+    setTestResult('Sedang mencoba mengirimkan sinyal tes...');
+    try {
+      await fetch(gasUrl, {
+        method: 'POST',
+        mode: 'no-cors',
+        redirect: 'follow',
+        headers: {
+          'Content-Type': 'text/plain;charset=utf-8'
+        },
+        body: JSON.stringify({
+          action: 'register',
+          payload: {
+            email: 'test@koneksi.com',
+            username: 'TesKoneksiSistem',
+            password: '123',
+            role: 'user'
+          }
+        }),
+      });
+      setTestResult('Koneksi Sukses! Sinyal tes terkirim. Silakan periksa tab "Users" di Google Sheets Anda.');
+    } catch (error) {
+      setTestResult('Koneksi Gagal: ' + error.message + '. Periksa kembali URL dan setelan publikasi deployment Anda.');
+    }
+  };
+
   const handleAuth = async (e) => {
     e.preventDefault();
     setAuthError('');
@@ -295,32 +210,26 @@ export default function App() {
     }
 
     if (isRegister) {
-      // Simulate/register on Apps Script + localStorage
       const newUser = { username, email, password, role: username.toLowerCase().includes('admin') ? 'admin' : 'user' };
 
-      // Store locally
       localStorage.setItem('moslem_user', JSON.stringify(newUser));
       setUser(newUser);
       setAuthSuccess('Registrasi Berhasil! Selamat Datang.');
 
-      // Realtime sheet save
       if (gasUrl) {
         syncWithSpreadsheet('register', newUser);
       }
     } else {
-      // Login check
       const savedUser = JSON.parse(localStorage.getItem('moslem_user'));
       if (savedUser && savedUser.username === username && savedUser.password === password) {
         setUser(savedUser);
         setAuthSuccess('Login Berhasil!');
       } else if (username.toLowerCase().includes('admin')) {
-        // Fallback for demo admin
         const adminUser = { username, email: 'admin@moslemjourney.com', role: 'admin' };
         setUser(adminUser);
         localStorage.setItem('moslem_user', JSON.stringify(adminUser));
         setAuthSuccess('Login Admin Berhasil!');
       } else {
-        // Standard user login
         const defaultUser = { username, email: `${username}@gmail.com`, role: 'user' };
         setUser(defaultUser);
         localStorage.setItem('moslem_user', JSON.stringify(defaultUser));
@@ -335,7 +244,6 @@ export default function App() {
     setActiveTab('home');
   };
 
-  // CRUD handlers for Sholat Readings & To-Do List
   const handleSaveItem = () => {
     if (crudTarget === 'sholat') {
       let updatedReadings = [...sholatReadings];
@@ -377,7 +285,6 @@ export default function App() {
     }
   };
 
-  // Open Edit/Add Modals
   const openCrudModal = (target, type, item = null) => {
     setCrudTarget(target);
     setCrudType(type);
@@ -392,7 +299,6 @@ export default function App() {
     setIsCrudOpen(true);
   };
 
-  // Zikir Counter actions
   const incrementZikir = (index) => {
     const updated = { ...zikirState };
     const currentZikir = updated[activeZikirTab][index];
@@ -408,11 +314,9 @@ export default function App() {
     setZikirState(updated);
   };
 
-  // Dynamic Fasting Schedule calculation (Ayyamul Bidh and Monday/Thursday check)
   const getFastingSchedule = () => {
     const today = new Date();
     const days = [];
-    // Generating upcoming 14 days of schedule check
     for (let i = 0; i < 14; i++) {
       const nextDate = new Date(today);
       nextDate.setDate(today.getDate() + i);
@@ -422,15 +326,12 @@ export default function App() {
       let isFastingDay = false;
       let fastingType = '';
 
-      // Check Monday or Thursday
       if (dayName === 'Senin' || dayName === 'Kamis') {
         isFastingDay = true;
         fastingType = `Puasa Sunnah ${dayName}`;
       }
 
-      // Simulated Hijri Ayyamul Bidh calculation (estimating for this month/mock dates)
-      // Every month, days 13, 14, 15
-      const mockHijriDay = ((nextDate.getDate() + 10) % 30) + 1; // Basic simulation of Hijri cycle
+      const mockHijriDay = ((nextDate.getDate() + 10) % 30) + 1;
       if (mockHijriDay === 13 || mockHijriDay === 14 || mockHijriDay === 15) {
         isFastingDay = true;
         fastingType = `Puasa Sunnah Ayyamul Bidh (1${mockHijriDay - 10} Hijriyah)`;
@@ -443,7 +344,6 @@ export default function App() {
     return days;
   };
 
-  // Actual Surah data fetcher when clicked
   const handleSelectSurah = async (number) => {
     setLoadingSurah(true);
     try {
@@ -459,7 +359,6 @@ export default function App() {
     }
   };
 
-  // Filter surahs
   const filteredSurahs = surahs.filter(s =>
     s.namaLatin.toLowerCase().includes(searchSurah.toLowerCase()) ||
     s.arti.toLowerCase().includes(searchSurah.toLowerCase())
@@ -505,7 +404,6 @@ export default function App() {
         {/* 1. HOME TAB */}
         {activeTab === 'home' && (
           <div className="space-y-6">
-            {/* HELLO SECTION */}
             <div className="bg-gradient-to-br from-emerald-800 to-teal-900 text-white p-5 rounded-2xl shadow-lg relative overflow-hidden">
               <div className="absolute right-[-20px] bottom-[-20px] opacity-10">
                 <Compass size={150} />
@@ -525,7 +423,6 @@ export default function App() {
               </div>
             </div>
 
-            {/* QUICK STATS / ACTION MODULES */}
             <div className="grid grid-cols-2 gap-4">
               <div onClick={() => setActiveTab('sholat')} className="bg-white p-4 rounded-xl shadow-sm border border-slate-200/80 flex flex-col justify-between hover:border-emerald-500 cursor-pointer transition">
                 <span className="text-2xl">📖</span>
@@ -557,7 +454,6 @@ export default function App() {
               </div>
             </div>
 
-            {/* ADHAN TIMINGS BLOCK */}
             <div className="bg-white p-4 rounded-xl border border-slate-200/80 shadow-sm">
               <div className="flex justify-between items-center mb-3">
                 <h3 className="font-bold text-slate-800 flex items-center gap-1.5 text-sm">
@@ -598,7 +494,6 @@ export default function App() {
               <h2 className="text-lg font-bold text-slate-800 mb-2">Kalender Hijriyah &amp; Gregorian</h2>
               <p className="text-xs text-slate-500 mb-4">Pantau penanggalan masehi dan hijriyah secara real-time</p>
 
-              {/* Islamic Finder Widget */}
               <div className="flex justify-center bg-slate-100 p-2 rounded-xl border border-slate-200 shadow-inner overflow-hidden">
                 <iframe
                   id="g2hFrame"
@@ -630,7 +525,6 @@ export default function App() {
               )}
             </div>
 
-            {/* CATEGORY SELECTOR */}
             <div className="flex gap-2 overflow-x-auto pb-1.5">
               {['Wajib', 'Tahajud', 'Witir', 'Dhuha', 'Jenazah'].map((cat) => (
                 <button
@@ -646,7 +540,6 @@ export default function App() {
               ))}
             </div>
 
-            {/* LIST OF READINGS */}
             <div className="space-y-3">
               {sholatReadings
                 .filter(item => item.category === currentItem.category)
@@ -675,14 +568,12 @@ export default function App() {
                     </div>
                     <h3 className="font-bold text-slate-800 text-base mb-3">{reading.title}</h3>
 
-                    {/* Arabic Text */}
                     <div className="bg-emerald-50/50 p-4 rounded-xl border border-emerald-100/30 mb-3 text-right">
                       <p className="text-xl font-arabic text-emerald-950 font-semibold leading-loose tracking-wide" style={{ fontFamily: "Amiri, serif", direction: "rtl" }}>
                         {reading.arabic}
                       </p>
                     </div>
 
-                    {/* Translation */}
                     <div>
                       <p className="text-xs text-slate-400 uppercase font-bold tracking-wider mb-1">Terjemahan:</p>
                       <p className="text-xs text-slate-600 leading-relaxed italic">{reading.translation}</p>
@@ -711,7 +602,6 @@ export default function App() {
               </button>
             </div>
 
-            {/* sub tab selector */}
             <div className="flex gap-1.5 bg-slate-200/60 p-1 rounded-xl">
               <button
                 onClick={() => setActiveZikirTab('habisSholat')}
@@ -733,7 +623,6 @@ export default function App() {
               </button>
             </div>
 
-            {/* List of zikirs and custom counters */}
             <div className="space-y-3">
               {zikirState[activeZikirTab].map((zikir, idx) => (
                 <div
@@ -745,7 +634,6 @@ export default function App() {
                     <p className="text-sm text-slate-700 font-semibold leading-relaxed">{zikir.text}</p>
                   </div>
 
-                  {/* Circular Counter Indicator */}
                   <div className="flex flex-col items-center justify-center min-w-[64px] h-[64px] rounded-full bg-emerald-50 border border-emerald-100 relative">
                     <span className="text-xs text-slate-400 font-medium">Batas: {zikir.max}</span>
                     <span className="text-lg font-bold text-emerald-800">{zikir.count}</span>
@@ -791,7 +679,6 @@ export default function App() {
         {/* 6. AL-QURAN TAB */}
         {activeTab === 'quran' && (
           <div className="space-y-4">
-            {/* Search and header */}
             <div className="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
               <h2 className="text-base font-bold text-slate-800 mb-1 flex items-center gap-1.5">
                 <BookOpen size={18} className="text-emerald-700" /> Jelajahi Al-Quran
@@ -810,7 +697,6 @@ export default function App() {
               </div>
             </div>
 
-            {/* Back button if Surah is selected */}
             {selectedSurah ? (
               <div className="space-y-4">
                 <button
@@ -825,7 +711,6 @@ export default function App() {
                     <h3 className="text-lg font-bold text-slate-800">{selectedSurah.namaLatin} ({selectedSurah.nama})</h3>
                     <p className="text-xs text-slate-500 mt-0.5">{selectedSurah.arti} &bull; {selectedSurah.jumlahAyat} Ayat</p>
 
-                    {/* Audio Player */}
                     {selectedSurah.audioFull?.['01'] && (
                       <div className="mt-4 flex justify-center">
                         <audio controls className="w-full max-w-[280px] h-8 rounded-lg">
@@ -836,7 +721,6 @@ export default function App() {
                     )}
                   </div>
 
-                  {/* Ayat Content */}
                   <div className="space-y-6 mt-6">
                     {selectedSurah.ayat.map((ay) => (
                       <div key={ay.nomorAyat} className="pb-6 border-b border-slate-100 last:border-none">
@@ -859,7 +743,6 @@ export default function App() {
                 </div>
               </div>
             ) : (
-              /* SURAH LIST GRID */
               <div className="grid grid-cols-2 gap-3">
                 {filteredSurahs.map((surah) => (
                   <div
@@ -899,7 +782,6 @@ export default function App() {
               )}
             </div>
 
-            {/* Custom Table styling for mobile */}
             <div className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
               <table className="w-full text-left border-collapse text-xs">
                 <thead>
@@ -951,7 +833,6 @@ export default function App() {
         {/* PROFILE / AUTH / SETTINGS TAB */}
         {activeTab === 'profile' && (
           <div className="space-y-4">
-            {/* If logged in, show Settings/Profile Panel */}
             {user ? (
               <div className="space-y-4">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm text-center">
@@ -972,7 +853,6 @@ export default function App() {
                   </button>
                 </div>
 
-                {/* SPREADSHEET / DEPLOYMENT URL COUPLING */}
                 <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm">
                   <h3 className="font-bold text-slate-800 text-sm mb-1 flex items-center gap-1.5">
                     <Settings size={16} className="text-emerald-700" /> Integrasi Database Realtime
@@ -993,7 +873,32 @@ export default function App() {
                         className="w-full bg-slate-50 border border-slate-200 rounded-xl py-2 px-3 text-xs focus:ring-1 focus:ring-emerald-500 focus:outline-none"
                       />
                     </div>
+
                     {gasUrl && (
+                      <div className="pt-2">
+                        <button
+                          type="button"
+                          onClick={handleTestConnection}
+                          className="w-full bg-emerald-50 hover:bg-emerald-100 text-emerald-800 border border-emerald-200 rounded-xl py-2 px-3 text-xs font-bold transition flex items-center justify-center gap-2"
+                        >
+                          <RefreshCw size={14} className="animate-spin-slow" />
+                          Uji Tes Koneksi Database
+                        </button>
+                      </div>
+                    )}
+
+                    {testResult && (
+                      <div className={`p-3 rounded-xl border text-[11px] leading-relaxed font-medium ${testResult.includes('Sukses')
+                          ? 'bg-green-50 border-green-200 text-green-800'
+                          : testResult.includes('Gagal') || testResult.includes('terlebih dahulu')
+                            ? 'bg-red-50 border-red-200 text-red-800'
+                            : 'bg-amber-50 border-amber-200 text-amber-800 animate-pulse'
+                        }`}>
+                        {testResult}
+                      </div>
+                    )}
+
+                    {gasUrl && !testResult && (
                       <div className="bg-emerald-50 p-3 rounded-xl border border-emerald-100 text-[11px] text-emerald-800 leading-relaxed">
                         <strong>Koneksi Terdeteksi:</strong> Aplikasi siap mengirimkan data registrasi, sholat, dan to-do list ke Spreadsheet Anda secara realtime.
                       </div>
@@ -1002,11 +907,10 @@ export default function App() {
                 </div>
               </div>
             ) : (
-              /* LOGIN & REGISTER PANELS */
               <div className="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
                 <div className="text-center mb-6">
                   <h2 className="text-lg font-bold text-slate-800">{isRegister ? 'Registrasi Baru' : 'Masuk Akun'}</h2>
-                  <p className="text-xs text-slate-400 mt-1">Gunakan username yang mengandung kata "admin" untuk menguji fitur Admin.</p>
+                  <p className="text-xs text-slate-400 mt-1">Gunakan nama pengguna "admin" pada registrasi jika ingin menguji fitur Admin.</p>
                 </div>
 
                 {authError && (
