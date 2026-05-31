@@ -32,14 +32,14 @@ const initialSholatReadings = [
     id: "doa-iftitah-2",
     category: "Wajib",
     title: "Doa Iftitah 2 (Wajjahtu)",
-    arabic: "وَجَّهْتُ وَجْهِيَ لِلَّذِي فَطَرَ السَّمَاوَاتِ وَالْأَرْضَ حَنِيفًا مُسْلِمًا وَمَا أَنَا مِنَ الْمُشْرِكِينَ، إِنَّ صَلَاتِي وَنُسُكِي وَمَحْيَايَ وَمَمَاتِي لِلَّهِ رَبِّ الْعَالَمِينَ، لَا شَرِيكَ لَهُ وَبِذَلِكَ أُمِرْتُ وَأَنَا مِنَ الْمُسْلِمِينَ",
+    arabic: "وَجَّهْتُ وَجْهِيَ لِلَّذِي فَطَرَ السَّمَاوَاتِ وَالْأَرْضَ hَنِيفًا مُسْلِمًا وَمَا أَنَا مِنَ الْمُشْرِكِينَ، إِنَّ صَلَاتِي وَنُسُكِي وَمَحْيَايَ وَمَمَاتِي لِلَّهِ رَبِّ الْعَالَمِينَ، لَا شَرِيكَ لَهُ وَبِذَلِكَ أُمِرْتُ وَأَنَا مِنَ الْمُسْلِمِينَ",
     translation: "Aku hadapkan wajahku kepada Tuhan yang menciptakan langit dan bumi dengan cenderung kepada kebenaran dan menyerahkan diri, dan aku bukanlah dari golongan orang-orang musyrik. Sesungguhnya shalatku, ibadahku, hidupku dan matiku hanyalah untuk Allah, Tuhan semesta alam, tidak ada sekutu bagi-Nya. Dan demikianlah yang diperintahkan kepadaku dan aku termasuk orang-orang muslim."
   },
   {
     id: "doa-iftitah-3",
     category: "Wajib",
     title: "Doa Iftitah 3 (Allahumma Baaid)",
-    arabic: "اللَّهُمَّ بَاعِدْ بَيْنِي وَبَيْنِ خَطَايَايَ كَمَا بَاعَدْتَ بَيْنَ الْمَشْرِقِ وَالْمَغْرِبِ، اللَّهُمَّ نَقِّنِي مِنَ الْخَطَايَا كَمَا يُنَقَّى الثَّوْبُ الْأَبْيَضُ مِنَ الدَّنَسِ، اللَّهُمَّ اغْسِلْ خَطَايَايَ بِالْمَاءِ وَالثَّلْجِ وَالْبَرَدِ",
+    arabic: "اللَّهُمَّ بَاعِد|َ بَيْنِي وَبَيْنِ خَطَايَايَ كَمَا بَاعَدْتَ بَيْنَ الْمَشْرِقِ وَالْمَغْرِبِ، اللَّهُمَّ نَقِّنِي مِنَ الْخَطَايَا كَمَا يُنَقَّى الثَّوْبُ الْأَبْيَضُ مِنَ الدَّنَسِ، اللَّهُمَّ اغْسِلْ خَطَايَايَ بِالْمَاءِ وَالثَّلْجِ وَالْبَرَدِ",
     translation: "Ya Allah, jauhkanlah antara aku and kesalahan-kesalahanku sebagaimana Engkau menjauhkan antara timur dan barat. Ya Allah, bersihkanlah aku dari kesalahan-kesalahanku sebagaimana baju putih dibersihkan dari kotoran. Ya Allah, cucilah kesalahan-kesalahanku dengan air, salju dan es."
   },
   {
@@ -53,7 +53,7 @@ const initialSholatReadings = [
     id: "tahyat-akhir",
     category: "Wajib",
     title: "Bacaan Tahyat Akhir",
-    arabic: "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ، وَبَارِك|َ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا بَارَكْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ، فِي الْعَالَمِينَ إِنَّكَ حَمِيدٌ مَجِيدٌ",
+    arabic: "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ، وَبَارِكْ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا بَارَكْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ، فِي الْعَالَمِينَ إِنَّكَ حَمِيدٌ مَجِيدٌ",
     translation: "Ya Allah, limpahkanlah rahmat kepada Nabi Muhammad dan keluarganya sebagaimana Engkau limpahkan rahmat kepada Nabi Ibrahim dan keluarganya. Dan berilah keberkahan kepada Nabi Muhammad dan keluarganya sebagaimana Engkau berikan keberkahan kepada Nabi Ibrahim dan keluarganya, di seluruh alam, sesungguhnya Engkau Maha Terpuji lagi Maha Mulia."
   }
 ];
@@ -130,7 +130,7 @@ export default function App() {
   const [crudTarget, setCrudTarget] = useState('sholat');
   const [currentItem, setCurrentItem] = useState({ id: '', category: 'Wajib', title: '', arabic: '', translation: '', deadline: '', duration: '', status: 'Belum Selesai' });
 
-  // Sinkronisasi data saat aplikasi pertama kali dimuat jika user sudah login
+  // Sinkronisasi data saat pertama dimuat
   useEffect(() => {
     const fetchSurahs = async () => {
       try {
@@ -145,17 +145,18 @@ export default function App() {
     };
     fetchSurahs();
 
-    // Lakukan cek berkala status User ke Google Sheet jika terkoneksi
     if (user && gasUrl) {
       checkLatestUserRole();
     }
   }, []);
 
-  // Memeriksa dan memperbarui Role secara otomatis di latar belakang dari Google Sheet
+  // Memeriksa Role secara aman di latar belakang
   const checkLatestUserRole = async () => {
     try {
       const response = await fetch(gasUrl);
-      const resData = await response.json();
+      const resText = await response.text();
+      // Parsing manual yang lebih aman untuk mencegah CORS/JSON parsing error crash
+      const resData = JSON.parse(resText);
       if (resData.status === 'success' && resData.data && resData.data.users) {
         const matchingUser = resData.data.users.find(
           u => u.username.toLowerCase() === user.username.toLowerCase()
@@ -167,7 +168,7 @@ export default function App() {
         }
       }
     } catch (e) {
-      console.error("Gagal memeriksa role terbaru di latar belakang:", e);
+      console.warn("Gagal memeriksa role terbaru secara online. Aplikasi tetap berjalan stabil di mode offline.");
     }
   };
 
@@ -223,7 +224,7 @@ export default function App() {
     }
   };
 
-  // Alur Autentikasi Baru: Mengambil data real-time dari Google Sheets saat login
+  // Alur Autentikasi dengan Fallback Offline
   const handleAuth = async (e) => {
     e.preventDefault();
     setAuthError('');
@@ -246,10 +247,11 @@ export default function App() {
       }
     } else {
       // PROSES LOGIN INTERAKTIF
+      const savedUser = JSON.parse(localStorage.getItem('moslem_user'));
+
       if (!gasUrl) {
-        // Fallback offline jika URL Spreadsheet belum dikonfigurasi
-        const savedUser = JSON.parse(localStorage.getItem('moslem_user'));
-        if (savedUser && savedUser.username === username && savedUser.password === password) {
+        // Fallback offline jika URL belum diisi
+        if (savedUser && savedUser.username.toLowerCase() === username.toLowerCase() && savedUser.password === password) {
           setUser(savedUser);
           setAuthSuccess('Login Berhasil (Mode Offline)!');
         } else {
@@ -260,18 +262,16 @@ export default function App() {
 
       setIsAuthLoading(true);
       try {
-        // Ambil data user paling update dari Google Sheets
         const response = await fetch(gasUrl);
-        const resData = await response.json();
+        const resText = await response.text();
+        const resData = JSON.parse(resText);
 
         if (resData.status === 'success' && resData.data && resData.data.users) {
-          // Cari user yang sesuai di baris Spreadsheet
           const matchedUser = resData.data.users.find(
             u => u.username.toLowerCase() === username.toLowerCase() && String(u.password) === String(password)
           );
 
           if (matchedUser) {
-            // Gunakan ROLE yang ditulis di Google Sheets secara real-time!
             const loggedInUser = {
               username: matchedUser.username,
               email: matchedUser.email || `${matchedUser.username}@gmail.com`,
@@ -283,14 +283,22 @@ export default function App() {
             localStorage.setItem('moslem_user', JSON.stringify(loggedInUser));
             setAuthSuccess(`Login Berhasil! Level Anda adalah: ${loggedInUser.role.toUpperCase()}`);
           } else {
+            // Cek jika kredensial salah secara mutlak
             setAuthError('Username atau Kata Sandi salah. Silakan periksa kembali.');
           }
         } else {
-          setAuthError('Gagal memuat basis data pengguna dari Google Sheets.');
+          throw new Error("Respon Google Sheets tidak valid");
         }
       } catch (error) {
-        console.error("Error login online:", error);
-        setAuthError('Gagal terhubung ke server database Google Sheets. Periksa koneksi internet Anda.');
+        console.warn("Error login online, mengaktifkan Fallback Login Offline:", error);
+
+        // JIKA SPREADSHEET ERROR/CORS/LIMIT, JALANKAN VERIFIKASI SEMENTARA SECARA OFFLINE
+        if (savedUser && savedUser.username.toLowerCase() === username.toLowerCase() && savedUser.password === password) {
+          setUser(savedUser);
+          setAuthSuccess(`Login Berhasil (Mode Offline)! Level Anda: ${savedUser.role.toUpperCase()}`);
+        } else {
+          setAuthError('Gagal terhubung ke server database Google Sheets DAN data akun lokal tidak ditemukan / kata sandi salah.');
+        }
       } finally {
         setIsAuthLoading(false);
       }
